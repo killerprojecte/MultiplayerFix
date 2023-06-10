@@ -1,0 +1,15 @@
+#IDEA File
+.idea
+*.iml
+
+#Gradle File
+.gradle
+
+#Build File
+build
+
+#Minecraft Temp Source
+minecraft
+
+#Temp Client Workspace
+run

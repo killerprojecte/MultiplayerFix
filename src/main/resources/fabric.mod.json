@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "multiplayerfix",
+  "version": "${version}",
+  "name": "MultiplayerFix",
+  "description": "",
+  "authors": [
+    "FlyProject"
+  ],
+  "contact": {
+    "repo": "https://github.com/killerprojecte/MultiplayerFix"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/MultiplayerFix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.rgbmc.multiplayerfix.MultiplayerFix"
+    ]
+  },
+  "mixins": [
+    "MultiplayerFix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
